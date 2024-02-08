@@ -1,18 +1,20 @@
 name: package_template
 channels:
 - conda-forge
+- franklab
+- edeno
 dependencies:
-- "python>=3.8"
-- numpy
+- python>=3.9,<3.10
+- numpy<1.24
 - scipy
 - scikit-learn
 - matplotlib
 - pandas
 - jupyterlab
+- pydotplus
+- pyfftw<=0.12.0
 - pytest
 - pytest-cov
-- coveralls
-- autopep8
 - black
 - isort
 - pip
