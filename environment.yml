@@ -1,0 +1,20 @@
+name: package_template
+channels:
+- conda-forge
+dependencies:
+- "python>=3.8"
+- numpy
+- scipy
+- scikit-learn
+- matplotlib
+- pandas
+- jupyterlab
+- pytest
+- pytest-cov
+- coveralls
+- autopep8
+- black
+- isort
+- pip
+- pip:
+  - spyglass-neuro
