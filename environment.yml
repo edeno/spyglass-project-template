@@ -1,6 +1,7 @@
 name: package_template
 channels:
 - conda-forge
+- defaults
 - franklab
 - edeno
 dependencies:
