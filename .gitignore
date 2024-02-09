@@ -246,3 +246,4 @@ cython_debug/
 
 _version.py
 .DS_Store
+dj_local_conf.json
